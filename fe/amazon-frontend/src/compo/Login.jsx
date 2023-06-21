@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../styles/Login.css";
+import AddToCart from "./AddToCart.jsx"
 
 function Login() {
   const [email, setEmail] = useState("");
@@ -30,7 +31,6 @@ function Login() {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-
           <h5>Password</h5>
           <input
             type="password"

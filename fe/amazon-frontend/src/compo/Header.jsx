@@ -5,7 +5,7 @@ import { faCartShopping, faFlag, faLocationDot, faMagnifyingGlass } from '@forta
 import { Link } from "react-router-dom";
 import { useStateValue } from "../States/StateProvider";
 function Header() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   return (
     <div className="header">
       <Link to="/">
@@ -59,6 +59,7 @@ function Header() {
             </span>
           </div>
         </Link>
+        
       </div>
     </div>
   );
