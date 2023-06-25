@@ -127,16 +127,16 @@ const Foot = () => {
 
           <ul className="copy text-center">
             <li>
-              <a href="#" class="logo"></a>
+              <a href="#" className ="logo"></a>
             </li>
             <li>
-              <a href="#" class="select">
-                <i class="fa fa-globe" aria-hidden="true"></i> English
+              <a href="#" className ="select">
+                <i className ="fa fa-globe" aria-hidden="true"></i> English
               </a>
             </li>
             <li>
-              <a href="#" class="select">
-                <i class="flag-icon-us"></i>United States
+              <a href="#" className ="select">
+                <i className ="flag-icon-us"></i>United States
               </a>
             </li>
           </ul>
