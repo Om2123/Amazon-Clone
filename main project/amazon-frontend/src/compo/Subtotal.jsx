@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 function Subtotal() {
 
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   const sumOfBasket = basket.reduce((sum, product) => sum + product.price, 0);
   return (
     <div className="subtotal">
