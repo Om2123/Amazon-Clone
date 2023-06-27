@@ -14,7 +14,7 @@ function CheckoutProduct({ id, title, image, price, rating }) {
   return (
     <div className="checkoutProduct" style={{margin :'15px' }}>
       <img className="checkoutProduct__image" src={image} alt={title} />
-      <div className="checkoutProduct__info" style={{ paddingLeft: '15vh' }}>
+      <div className="checkoutProduct__info" >
         <p className="checkoutProduct__title">{title}</p>
         <p className="checkoutProduct__price">
           <small>₹</small>

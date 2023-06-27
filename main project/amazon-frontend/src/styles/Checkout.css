@@ -1,16 +1,33 @@
 .checkout {
-    display: flex;
-    padding: 19px;
-    background-color: white;
-    height: max-content;
+  display: flex;
+  flex-direction: column;
+  padding: 19px;
+  background-color: white;
+  height: max-content;
+}
+
+.checkout__ad { width: 100%;
+  height: auto;
+  max-width: 100%;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.checkout__title {
+  margin-right: 10px;
+  padding: 10px;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Additional Styles for Mobile */
+@media (max-width: 480px) {
+  .checkout {
+    padding: 10px;
   }
   .checkout__ad {
-    width: 100%;
     margin-bottom: 10px;
   }
   .checkout__title {
-    margin-right: 10px;
-    padding: 10px;
-    border-bottom: 1px solid lightgray;
+    font-size: 1.6rem;
   }
-  
+}
