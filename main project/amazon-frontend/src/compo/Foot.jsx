@@ -14,7 +14,7 @@ const Foot = () => {
           </a>
         </div>
 
-        <div className="middle">
+        {/* <div className="middle">
           <div className="center">
             <ul>
               <li>
@@ -140,7 +140,7 @@ const Foot = () => {
               </a>
             </li>
           </ul>
-        </div>
+        </div> */}
 
         <div className="bottom">
           <div className="center">
