@@ -24,7 +24,7 @@ const Foot = () => {
                 <a href="#">Careers</a>
               </li>
               <li>
-                <a href="#">About Amazon</a>
+                <a href="#">About Amazon Eccomerce</a>
               </li>
               <li>
                 <a href="#">Investor Relations</a>
