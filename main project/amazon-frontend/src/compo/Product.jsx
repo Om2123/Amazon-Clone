@@ -36,10 +36,12 @@ function Product({ id, title, image, price, rating }) {
         </div>
       </div>
       <img src={image} alt="canva" />
-      {/* <button onClick={addToBasket}>Add To Basket</button> */}
+
       <button className="add-to-cart-button" onClick={addToBasket}>
         <span>Add to Cart</span>
       </button>
+
+    
     </div>
   );
 }
